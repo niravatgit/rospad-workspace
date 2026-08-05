@@ -10,6 +10,7 @@ setup(
     entry_points={
         'console_scripts': [ 
             'talker  = talker_listener.talker:main',
-            'listener = talker_listener.listener:main',],
+            'listener = talker_listener.listener:main'
+            ],
     },
 )
