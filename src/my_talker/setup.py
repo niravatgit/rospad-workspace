@@ -8,6 +8,8 @@ setup(
     packages=[package_name],
     install_requires=['setuptools'],
     entry_points={
-        'console_scripts': ['listener = my_talker.listener:main'],
+        'console_scripts': [ 
+            'talker  = talker_listener.talker:main',
+            'listener = talker_listener.listener:main',],
     },
 )
