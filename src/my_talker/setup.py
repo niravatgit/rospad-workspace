@@ -9,7 +9,7 @@ setup(
     install_requires=['setuptools'],
     entry_points={
         'console_scripts': [ 
-            'talker  = talker.talker:main',
+            'talker  = my_talker.talker:main',
             'listener = my_talker.listener:main',
             ],
     },
