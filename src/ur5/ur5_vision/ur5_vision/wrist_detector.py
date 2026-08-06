@@ -27,7 +27,7 @@ from sensor_msgs.msg import Image
 # Sim palette (OBS_COLORS): 0xf85149, 0x3fb950, 0x39c5cf, 0x58a6ff, 0xd29922, 0x8957e5.
 COLOURS = {
     'red':    ( 70, 255,   0,  95,   0,  95),  # #ff0000 + 0xf85149
-    'green':  (  0,  85,  60, 255,   0,  90),  # #00ff00 + 0x3fb950
+    'green':  (  0,  85,  0, 255,   0,  90),  # #00ff00 + 0x3fb950
     'blue':   (  0, 115,   0, 115,  80, 255),  # #0000ff + 0x58a6ff (B_min 80 covers shadow)
     'cyan':   (  0,  70, 100, 255,  90, 255),  # 0x39c5cf (G≈B both high, R low)
     'orange': ( 70, 220,  50, 170,   0,  55),  # 0xd29922
