@@ -2,7 +2,7 @@
 diffbot_bringup.launch.py — bring up RRR in ROSpad simulation
 
 Launches:
-  • robot_state_publisher  (publishes /robot_description → loads DiffBot in 3D sim)
+  • robot_state_publisher  (publishes /robot_description → loads RRRB in 3D sim)
   • joint_state_publisher  (publishes zero wheel joint states)
 
 Usage (ROSpad IDE):
