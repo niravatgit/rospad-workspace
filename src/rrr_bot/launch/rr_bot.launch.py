@@ -20,7 +20,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     pkg = get_package_share_directory('rr_bot')
-    urdf_path = os.path.join(pkg, 'urdf', 'rr_.urdf')
+    urdf_path = os.path.join(pkg, 'urdf', 'rr_bot.urdf')
 
     with open(urdf_path, 'r') as f:
         robot_description = f.read()
